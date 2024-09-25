@@ -11,4 +11,4 @@ I have hands-on experience with various programming languages, including:
 - SQL: Strong background in database management and analysis.
 
 ## Favorite Meme
-![Favorite Meme](https://drive.google.com/file/d/1TXlkguF0YA1JEbx4kQH9JLofW4qfu-PT/view)
+![Favorite Meme](https://drive.google.com/uc?export=view&id=1TXlkguF0YA1JEbx4kQH9JLofW4qfu-PT)
