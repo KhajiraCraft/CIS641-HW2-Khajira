@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio of [Your Full Name]">
+    <title>Christopher Khajira - Personal Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(45deg, #141e30, #243b55);
+            color: #f4f4f9;
+        }
+        header {
+            background: #0a3d62;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        header:after {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 200%;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(255,255,255,0.03);
+            animation: slide 20s infinite linear;
+        }
+        @keyframes slide {
+            from { transform: translateX(-50%) translateY(0); }
+            to { transform: translateX(-50%) translateY(-100%); }
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+        section {
+            padding: 60px 20px;
+            max-width: 900px;
+            margin: auto;
+            background-color: #1e272e;
+            border-radius: 8px;
+            margin-bottom: 40px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            font-size: 1.8rem;
+            color: #0be881;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        h2:before {
+            content: '';
+            position: absolute;
+            width: 50px;
+            height: 4px;
+            background-color: #0be881;
+            bottom: -10px;
+            left: 0;
+        }
+        p, li {
+            font-size: 1rem;
+            margin-bottom: 10px;
+            line-height: 1.8;
+        }
+        ul {
+            list-style-type: none;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #0be881;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0a3d62;
+            color: white;
+            margin-top: 40px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            object-fit: cover;
+            margin: 20px 0;
+        }
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+        }
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Christopher Khajira</h1>
+    <p>Software Developer | Data Scientist | Artificial Intelligence Engineer </p>
+</header>
+
+<section class="fade-in">
+    <h2>About Me</h2>
+    <p>Hello, I'm Christopher, a passionate Computer Science student at Grand Valley State University with a focus on Artificial Intelligence and Data Science. My interests lie in solving complex problems with innovative technology and working on real-world projects to push the boundaries of AI and machine learning.</p>
+</section>
+
+<section class="fade-in">
+    <h2>Education</h2>
+    <ul>
+        <li><strong>Grand Valley State University</strong> - M.S. in Applied Computer Science (Current)</li>
+        <li><strong>Jomo Kenyatta University of Agriculture and Technology</strong> - B.S. in Electronics and Computer Engineering</li>
+    </ul>
+</section>
+
+<section class="fade-in">
+    <h2>Work Experience</h2>
+    <ul>
+        <li><strong>IT Support Specialist</strong> - Grand Valley State University Surplus Store (Current)
+            <br>Providing technical support and maintenance for IT systems, managing inventory, and assisting with the setup of devices for resale.</li>
+        <li><strong>Custom Code Engineer</strong> - Zoho Corporation (2021-2024)
+            <br>Developed and customized software solutions, implemented client-specific features, and worked with various APIs to integrate Zoho products.</li>
+        <li><strong>End User Devices Specialist</strong> - Safaricom PLC (2019-2020)
+            <br>Supported end-user devices, managed mobile device configurations, and ensured seamless device operations for Safaricom’s internal and external clients.</li>
+    </ul>
+    
+</section>
+
+<section class="fade-in">
+    <h2>Technical Skills</h2>
+    <ul>
+        <li><strong>Languages:</strong> Python, JavaScript (React), SQL, Java</li>
+        <li><strong>Tools:</strong> Git, Jupyter Notebooks, Pandas, Scikit-learn, Matplotlib</li>
+        <li><strong>Web Development:</strong> React.js, HTML, CSS</li>
+        <li><strong>Data Science:</strong> Machine Learning, KNN, K-Means, Parametric Learning, RNNs</li>
+        <li><strong>Database Management:</strong> SQL, Graph Databases, Cypher queries</li>
+    </ul>
+</section>
+
+<section class="fade-in">
+    <h2>Portfolio</h2>
+    <p>Some of my recent projects:</p>
+    <ul>
+        <li><a href="https://github.com/KhajiraCraft/LLMLinkedin" target="_blank">Linkedin Information App using LLM Agents</a></li>
+        <li><a href="https://github.com/KhajiraCraft/ReactQuizApp" target="_blank">Quiz App using React</a></li>
+        <li><a href="https://github.com/KhajiraCraft/tax" target="_blank">Tax Website using JavaScript</a></li>
+    </ul>
+</section>
+
+<section class="fade-in">
+    <h2>Interests</h2>
+    <ul>
+        <li>Artificial Intelligence</li>
+        <li>Data Science and Computational Modeling</li>
+        <li>Software Development</li>
+        <li>Exploring new cultures and travel</li>
+    </ul>
+</section>
+
+<section class="fade-in">
+    <h2>Contact Me</h2>
+    <p>If you want to get in touch, feel free to reach me at chriskhajira@gmail.com</p>
+</section>
+
+<footer>
+   
+</footer>
+
+</body>
+</html>
